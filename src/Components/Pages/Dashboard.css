@@ -1,0 +1,45 @@
+.headg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homie{
+    font-family: 'Work Sans', sans-serif !important;
+
+}
+
+.head{
+    z-index: 2;
+    margin-left: auto;
+}
+
+.baseback{
+    background-color: var(--secondary-color);
+}
+
+.hello{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidemeat{
+    background: rgb(241, 241, 241);
+}
+
+
+.issue__head{
+    background:  rgb(241, 241, 241);
+    border-radius: 3px;
+    padding: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.issue__section{
+
+}
+
+.ticket__title{
+    display: flex;
+    justify-content: space-between;
+}

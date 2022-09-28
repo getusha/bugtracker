@@ -1,0 +1,44 @@
+
+:root{
+    --primary-color: rgb(27, 27, 110);
+    --secondary-color: #1e2531;
+}
+
+.hi{
+    /* padding: 5% 0; */
+    color: var(--primary-color);
+}
+
+.lil{
+    margin-bottom: 30px;
+    color:  rgb(100, 100, 121);
+}
+
+.keepme{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homie{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.newacc{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+    background:linear-gradient(45deg, rgb(89, 0, 172), rgb(24, 34, 163));
+    /* background: url(https://dashwire.com/wp-content/uploads/2022/03/Website-Building-Landscape-1280x640-1.jpg);
+    background-size: 100% 100%; */
+}
+
+.navlink{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
