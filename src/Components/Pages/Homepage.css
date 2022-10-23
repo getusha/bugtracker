@@ -37,7 +37,7 @@
 }
 
 .navlink{
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--primary-color);
     font-weight: bold;
 }

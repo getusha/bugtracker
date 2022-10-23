@@ -1,7 +1,6 @@
 {
   "name": "bugtracker",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@mantine/core": "^5.4.1",
@@ -13,6 +12,7 @@
     "@mantine/notifications": "^5.4.1",
     "@mantine/nprogress": "^5.4.1",
     "@mantine/prism": "^5.4.1",
+    "@mantine/rte": "^5.4.2",
     "@tabler/icons": "^1.101.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +20,7 @@
     "dayjs": "^1.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -29,25 +29,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "react-router-dom": "^6.4.1"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

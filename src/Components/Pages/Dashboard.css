@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-between;
 }
-
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
 .homie{
     font-family: 'Work Sans', sans-serif !important;
 
@@ -23,17 +29,19 @@
 }
 
 .sidemeat{
-    background: rgb(241, 241, 241);
+    background: rgb(255, 255, 255);
 }
 
 
 .issue__head{
-    background:  rgb(241, 241, 241);
+    background:  rgb(255, 255, 255);
     border-radius: 3px;
     padding: 13px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 500;
     color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
 }
 .issue__section{
 

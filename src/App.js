@@ -1,8 +1,10 @@
+import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./Components/Basic/Sidebar";
 import Dashboard from "./Components/Pages/Dashboard";
 import HomePage from "./Components/Pages/Homepage";
 import NewAccount from "./Components/Pages/NewAccount";
+import Projects from "./Components/Pages/Projects";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
               <Route path="dashboard" element={
                 <Dashboard />
               } />
+            <Route path="projects" element={<Projects />}/>
             </Route>
+
           </Route>
         
         </Routes>
